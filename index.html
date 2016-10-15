@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <script src="jquery.js"></script>
     <script src="data_generator.js"></script>
+    <script src="twittlerJavaScript.js"></script>
   </head>
-  <body>
-    <script>
+<body>
+<div>
+   <div class ="headerContainer">
+    <h1>Twittler</h1>
+   </div>
+    <div class="clearfix"></div>
 
-      $(document).ready(function(){
-        var $body = $('body');
-        $body.html('');
-
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($body);
-          index -= 1;
-        }
-
-      });
-
-    </script>
-  </body>
+   <div class ="actionContainer">
+    
+    <div class='action'><input type="text" placeholder="Enter your tweet here and press Enter"> </input><button type="button" class="tweet getTweet">Get latest tweets</button></div>
+    </div>
+    <div class="clearfix"></div>
+   
+   <div class="bodyContainer"></div>
+</div>
+</body>
 </html>

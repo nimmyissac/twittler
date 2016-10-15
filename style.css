@@ -1,0 +1,79 @@
+body{
+	background-color: #236B8E;
+}
+.headerContainer{
+ background-color: #0084b4;
+ max-width:1000px;
+ margin-left: auto;
+ margin-right: auto;
+ border: .5px solid #236B8E ;
+
+ }
+ .actionContainer{
+ max-width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ }
+ .action{
+  padding-bottom: 4%;
+  padding-top: 2px;
+ }
+
+.getTweet{
+ display: inline-block;
+ float: right;
+ width: 25%;
+ padding: 7px;
+ font-size: 15px;
+ font-family: 'Playfair Display', serif;
+ margin-top: 0px;
+ border: none;
+ border-radius: 20px;
+ background-color: #0084b4;
+ margin-bottom: 10px;
+ box-shadow: 2px 4px #0099CC;
+}
+
+input{
+	width: 72.5%;
+	padding: 10px;
+	float:left;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+
+h1{
+ text-align: center;
+ font-size: 50px;
+ font-family: 'Playfair Display', serif;
+ text-shadow: 5px 5px #236B8E;
+
+}
+
+.bodyContainer{
+ max-width:1000px;
+ margin-left: auto;
+ margin-right: auto;
+  }
+.user{
+ padding: 10px 5px;
+}
+
+.user a{
+	font-style: italic;
+}
+
+.date{
+ float:right;
+}
+.odd{
+ background-color: #BFEFFF	
+}
+.even{
+ background-color: #c0deed;
+}
+
+
+
+
